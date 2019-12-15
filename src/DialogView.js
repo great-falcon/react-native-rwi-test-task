@@ -2,7 +2,6 @@ import React from 'react';
 import Dialog from 'react-native-dialog';
 
 const DialogView = props => {
-  console.log(props);
   return (
     <Dialog.Container visible={props.open}>
       <Dialog.Title>{props.title}</Dialog.Title>
