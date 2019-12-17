@@ -10,16 +10,18 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@types/lodash": "^4.14.149",
     "@types/node": "^12.12.17",
     "@types/react": "^16.9.16",
     "@types/react-dom": "^16.9.4",
     "@types/react-native": "^0.60.25",
     "@types/react-native-dialog": "^5.6.1",
+    "lodash": "^4.17.15",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-native-contacts": "^5.0.5",
-    "react-native-contacts-sectionlist": "^1.0.2",
     "react-native-dialog": "^5.6.0",
+    "react-native-launch-navigator": "^1.0.6",
     "react-native-material-menu": "^1.0.0",
     "react-native-modal": "^11.5.3"
   },

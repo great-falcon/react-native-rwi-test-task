@@ -1,10 +1,10 @@
 import React, {useRef, useState} from 'react';
 import {Alert, SafeAreaView, StyleSheet, Text, View} from 'react-native';
 
-import {ContactsSectionList} from 'react-native-contacts-sectionlist';
 import Menu, {MenuItem} from 'react-native-material-menu';
 import DialogView from './DialogView';
 import Contacts from 'react-native-contacts';
+import ContactsList from './ContactsList/ContactsList';
 
 const ContactsView = () => {
   const [dialogVisible, setDialogVisible] = useState(false);
@@ -66,7 +66,8 @@ const ContactsView = () => {
           </MenuItem>
         </Menu>
       </View>
-      <ContactsSectionList />
+      {/*<ContactsSectionList />*/}
+      <ContactsList />
       <DialogView
         open={dialogVisible}
         onSubmit={handleSubmit}
