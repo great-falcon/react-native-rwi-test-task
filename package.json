@@ -18,7 +18,7 @@
     "@types/react-native-dialog": "^5.6.1",
     "lodash": "^4.17.15",
     "react": "16.9.0",
-    "react-native": "0.61.5",
+    "react-native": "0.62.3",
     "react-native-contacts": "^5.0.5",
     "react-native-dialog": "^5.6.0",
     "react-native-launch-navigator": "^1.0.6",
